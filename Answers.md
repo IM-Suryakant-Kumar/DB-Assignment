@@ -8,4 +8,5 @@
 
 ## Answers
 
-1. 
+1. "Product" and "Product_Category" are separate collections. "Product" contains a "category_id" that point to the "id" of "Product_category" that diffrentiate "Product" with other "Product"
+2. We can ensure that by checking if any document's "id" of Product_category collection match to the "category_id"
